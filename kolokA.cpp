@@ -93,11 +93,11 @@ delete wsk2;
 wsk2 = 0;
 
 cout << ob2;
-cout << (ob2 + 10);             // операція стосується поля w1
+cout << (ob2 + 10);             
 cout << "****** 3 *****\n" << endl;
 
 K2 tab[4];
-ifstream plik ("plik is good");                     // читання даних з файлу data.txt
+ifstream plik ("plik is good");                     
 if (plik.good()){
     for (size_t i {0}; i < 4; i++){
         plik >> tab[i];
@@ -111,8 +111,8 @@ for (size_t i {0}; i < 4; i++){
 
 cout << "****** 4 *****\n" << endl;
 
-tab[1] = tab[1] + " Kowalska";  // операція стосується поля K2::txt[1]
-tab[3] = "Bocian " + tab[3];    // операція стосується поля K2::txt[1]
+tab[1] = tab[1] + " Kowalska"; 
+tab[3] = "Bocian " + tab[3];    
 
 for (int i = 0; i < 4; ++i) {
     cout << tab[i];
